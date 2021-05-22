@@ -43,10 +43,10 @@ It can be made in bit, byte(8bits) or 'word'(16bits), that will be ready like **
 
 - Boolean
 
-     1 or 0
-     True or False
-     On or Off
-     Opened or Closed
+     - 1 or 0
+     - True or False
+     - On or Off
+     - Opened or Closed
 
 ### | Constants and variables
 
