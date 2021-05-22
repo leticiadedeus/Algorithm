@@ -97,7 +97,7 @@ exit:
           Insert the name: Pedro Henrique
           Pedro Henrique
 
-     When the folder receives a data, it just can keep that one data. If you insert another value, the last one will be forgotten.
+When the folder receives a data, it just can keep that one data. If you insert another value, the last one will be forgotten.
 
 ## Expressions
 
