@@ -1,7 +1,7 @@
 # My annotations of algorithm
 ##### || This file is being written with some references to Python codes ||
 
-## 1. Computer components 
+## Computer components 
 
 - CPU
 - Memorie
@@ -163,7 +163,7 @@ exit:
 
           TRUE
 
-## Entrance
+## Entrance commands
 
 Most of the codes are made to have a high contact with the user, getting data of them. So we need to know how to receive these data. 
 
@@ -177,3 +177,43 @@ exit:
           Insert your name: Leticia de Deus <ENTER>
           Welcome, Leticia de Deus!
 
+
+## Conditions 
+
+Logicly, the code starts running the commands from the first to the last line non-stopping, but, sometimes, we want it to just run a line IF we have a specific situation.
+
+### | Condition structures
+
+### // if and else
+
+          if (logic expression):
+               (command)
+
+The expression have to returns a 'False or True' answer.
+
+          if UserAge >= 18:
+               print('The user is older/adult')
+          else: 
+               print('The user is minor')
+          print('End of the algorithm')
+
+'The user is older/adult' will only be printed if the age of the user is higher than or equal 18 years old.
+
+'The user is minor' will only be printed if the age of the 'user is lower than 18 years old.
+
+'End of the algorithm' will be printed anyways, because is out of the structure.
+
+### // elif
+
+          if UserAge >= 18:
+               print('The user is adult')
+          elif UserAge >= 14:
+               print('The user is a teenager')
+          else:
+               print('The user is a child')
+
+'The user is adult' will only be printed if the age of the user is higher than or equal 18 years old.
+
+'The user is a teenager' will only be printed if the age of the user is higher or equal 14, but we already exclude that users who has 18yo or more.
+
+'The user is a child' will only be printed if the age of the user lower than 14, but see we didn't have to write this logic expression, because we already exclude that users who has 14yo or more.
