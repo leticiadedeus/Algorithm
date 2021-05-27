@@ -178,13 +178,11 @@ exit:
           Welcome, Leticia de Deus!
 
 
-## Conditions 
+## Conditions  
 
 Logicly, the code starts running the commands from the first to the last line non-stopping, but, sometimes, we want it to just run a line IF we have a specific situation.
 
-### | Condition structures
-
-### // if and else
+### | if and else
 
           if (logic expression):
                (command)
@@ -203,7 +201,7 @@ The expression have to returns a 'False or True' answer.
 
 'End of the algorithm' will be printed anyways, because is out of the structure.
 
-### // elif
+### | elif
 
           if UserAge >= 18:
                print('The user is adult')
@@ -217,3 +215,33 @@ The expression have to returns a 'False or True' answer.
 'The user is a teenager' will only be printed if the age of the user is higher or equal 14, but we already exclude that users who has 18yo or more.
 
 'The user is a child' will only be printed if the age of the user lower than 14, but see we didn't have to write this logic expression, because we already exclude that users who has 14yo or more.
+
+## Loops
+
+Repeat a command till the code got the objective of that loop. For checking if this objective is achieved, we use a logic expression ('controll expression'). 
+
+### | while (logic expression):
+
+The logic expression will be in the loop command, so everytime before it starts to run the loop,  it will check the expression's value.
+
+          while name != 'end':
+               print('The name inserted: ', name)
+
+### | 'do - while':
+
+The logic expression will be on the end of the loop command, so it will me done at least one time without checking the expression's value.
+
+          do:
+               name = str(input())
+               print(name)
+          while:
+               name != 'end'
+
+### | 'do - for':
+
+Not logic expression, the control expression is a counter, that will be declared in the beggin of the command. <b>It means we need to know how many times the loop has to run.<b>
+
+          for c in range (0, 3):
+               name = str(input('Insert the name: '))
+
+| So the code will receive 3 names only.
