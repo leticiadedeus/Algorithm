@@ -1,7 +1,7 @@
 # My annotations of algorithm
 ##### || This file is being written with some references to Python codes ||
 
-## Computer components 
+## Computer Components 
 
 - CPU
 - Memorie
@@ -118,7 +118,7 @@ So, when you're writing your code, make sure the expresssion is correctly writte
 * Math has exceptions sometimes, it have to be avoid.
 * Always look for a simple way to do the expression (and all the functions too)
 
-## Logic expressions
+## Logic Expressions
 
 The only answers can be yes or not.
 
@@ -132,7 +132,7 @@ and, or, xor*, not**
 
 **Reverses the result (logic value)
 
-## Exit commands 
+## Exit Commands 
 
 When we're talking about the 'exit' in de code, it's a reference to what we show to the user, writing it on the screen.
 
@@ -163,7 +163,7 @@ exit:
 
           TRUE
 
-## Entrance commands
+## Entrance Commands
 
 Most of the codes are made to have a high contact with the user, getting data of them. So we need to know how to receive these data. 
 
@@ -244,6 +244,24 @@ Not logic expression, the control expression is a counter, that will be declared
           for c in range (0, 3):
                name = str(input('Insert the name: '))
 
-| So the code will receive 3 names only.
+So the code will receive 3 names only.
 
-## 
+## Homogeneous Vectors
+
+### | One-Dimensional Vectors
+
+Datas of the same type are keeped in a vector, each one with their own index.
+
+Ex = 
+
+          numbers = [23, 24, 25]
+
+'23' is on the position 0 (numbers[0])
+'24' is on the position 1 (numbers[1])
+'25' is on the position 2 (numbers[2])
+
+### | Two-Dimensional Vectors
+
+Columns and rows
+
+##### We can also have multidimensional Vectors
