@@ -61,12 +61,12 @@ It can be made in bit, byte(8bits) or 'word'(16bits), that will be ready like **
      
      We also have some rules to follow: not using special characters, not even space (EXCEPITION: underline = '_')
 
-     Ex = 
+     Ex =
 
           name = str(input())
           print(name)
 
-exit:
+     exit:
 
           Leticia de Deus
           
@@ -83,16 +83,16 @@ exit:
           name = Leticia de Deus
           print(name)
 
-exit:
+     exit:
 
           Leticia de Deus
 
-Also, the assignment can be asked for the user. EX:
+     Also, the assignment can be asked for the user. EX:
 
           name = str(input('Insert the name: '))
           print(name)
 
-exit:
+     exit:
 
           Insert the name: Pedro Henrique
           Pedro Henrique
@@ -245,3 +245,5 @@ Not logic expression, the control expression is a counter, that will be declared
                name = str(input('Insert the name: '))
 
 | So the code will receive 3 names only.
+
+## 
