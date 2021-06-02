@@ -1,4 +1,4 @@
-# My annotations of algorithm
+# My annotations of algorithm !
 ##### || This file is being written with some references to Python codes ||
 
 ## Computer Components 
